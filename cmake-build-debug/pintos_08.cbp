@@ -1,0 +1,2083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pintos_08"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mikiivanovic/pintos_08/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mikiivanovic/pintos_08/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mikiivanovic/pintos_08/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pintos_08">
+				<Option output="/Users/mikiivanovic/pintos_08/cmake-build-debug/pintos_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikiivanovic/pintos_08/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mikiivanovic/pintos_08/specs/kbd"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/devices"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/filesys"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/lib"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/lib/kernel"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/lib/user"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/devices"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/filesys"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/filesys/base"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/threads"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/userprog"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/vm"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/threads"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/userprog"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 pintos_08"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pintos_08/fast">
+				<Option output="/Users/mikiivanovic/pintos_08/cmake-build-debug/pintos_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikiivanovic/pintos_08/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mikiivanovic/pintos_08/specs/kbd"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/devices"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/filesys"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/lib"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/lib/kernel"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/lib/user"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/devices"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/filesys"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/filesys/base"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/threads"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/userprog"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/tests/vm"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/threads"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src/userprog"/>
+					<Add directory="/Users/mikiivanovic/pintos_08/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 pintos_08/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mikiivanovic/pintos_08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mikiivanovic/pintos_08/AUTHORS">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/LICENSE">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/a.patch">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/44bsd.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/alarmclock.tex">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/bibliography.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/codebase.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/debug.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/devel.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/devices.tmpl">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/doc.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/installation.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/intro.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/license.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/localgitinstructions.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/localsettings.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/pintos-ic.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/pintos-t2h.init">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/pintos.css">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/reference.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/sample.tmpl">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/standards.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/task0_questions.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/task0_sheet.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/texi2html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/texinfo.tex">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/threads.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/threads.tmpl">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/userprog.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/userprog.tmpl">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/vm.texi">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/doc/vm.tmpl">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/feedback.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/freevga.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/glossary.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/hardovr.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/hardrec.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/home.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/license.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/llintro.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/256left.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/256left.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/256right.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/256right.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/attrreg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/char.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/colorreg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/crtcreg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/extreg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/graphreg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/license.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/paging.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/paging.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/portidx.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/seqpack.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/seqpack.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/seqplanr.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/seqplanr.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/seqreg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/textcur.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vga.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgacrtc.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgadac.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgafunc.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgafx.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgamem.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgareg.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgargidx.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgaseq.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/vgatext.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/virtual.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vga/virtual.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/freevga/vtiming.htm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/abnt-keypad.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/amstrad-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/amstrad.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/compaq_easy_access.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/compaq_unkn-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/compaq_unkn.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/ibm_rapid_access.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/ibm_rapid_access_II.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/imb5576-2.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/jp106-with-scancodes.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/jp106.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/jplaptop.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/lk201-k.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/lk411-left.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/lk411-right.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/lk411-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/lk411.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/logitech-access.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/logitech-internet-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/logitech-internet.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/m24.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/m24kbd.png">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/ms_office.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/ncr-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/nokia-left.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/nokia-right.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/nokia-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/nokia-top.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/nokia.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/samsung-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/samsung.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-1.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-10.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-11.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-12.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-13.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-14.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-2.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-3.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-4.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-5.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-6.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-7.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-8.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes-9.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/scancodes.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/sk2500.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/table.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/telerate-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/telerate.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/victor-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/victor.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/xt-at-switch.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/xtkbd-s.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/xtkbd.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/kbd/yahoo912.jpg">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch4.eheader.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch4.intro.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch4.reloc.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch4.sheader.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch4.strtab.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch4.symtab.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch5.dynamic.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch5.intro.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch5.pheader.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/ch5.prog_loading.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/contents.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/contents.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/init_example.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/next.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/previous.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/revision.html">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/specs/sysv-abi-update.html/warning.gif">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/LICENSE">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/Make.config">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/Makefile.build">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/Makefile.kernel">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/Makefile.userprog">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/Make.vars">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/block.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/block.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/ide.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/ide.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/input.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/input.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/intq.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/intq.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/kbd.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/kbd.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/partition.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/partition.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/pit.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/pit.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/rtc.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/rtc.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/serial.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/serial.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/shutdown.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/shutdown.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/speaker.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/speaker.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/timer.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/timer.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/vga.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/devices/vga.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/bubsort.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/cat.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/cmp.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/cp.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/echo.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/halt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/hex-dump.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/insult.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/lineup.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/matmult.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/mcat.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/mcp.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/recursor.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/examples/rm.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/Make.vars">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/directory.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/directory.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/file.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/file.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/filesys.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/filesys.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/free-map.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/free-map.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/fsutil.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/fsutil.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/inode.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/inode.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/filesys/off_t.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/arithmetic.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/ctype.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/debug.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/debug.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/inttypes.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/bitmap.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/bitmap.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/console.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/console.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/debug.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/hash.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/hash.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/list.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/list.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/kernel/stdio.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/limits.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/packed.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/random.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/random.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/round.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdarg.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdbool.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stddef.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdint.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdio.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdio.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdlib.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/stdlib.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/string.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/string.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/syscall-nr.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/console.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/debug.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/entry.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/stdio.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/syscall.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/syscall.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/user/user.lds">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/ustar.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/lib/ustar.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/misc/gdb-macros">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/Algorithm/Diff.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/arc4.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/arc4.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/arc4.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/cksum.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/cksum.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/cksum.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/Grading">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/Rubric.alarmfunc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/Rubric.alarmrobust">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-multiple.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-negative.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-negative.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-priority.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-priority.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-simultaneous.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-simultaneous.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-single.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-wait.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-zero.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm-zero.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/alarm.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/tests.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/devices/tests.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/Grading.no-vm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/Grading.with-vm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/Rubric">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/child-syn-read.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/child-syn-wrt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/full.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-create.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-create.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-full.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-full.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-random.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-random.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-seq-block.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-seq-block.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-seq-random.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/lg-seq-random.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/random.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/seq-block.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/seq-random.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-create.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-create.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-full.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-full.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-random.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-random.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-seq-block.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-seq-block.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-seq-random.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/sm-seq-random.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-read.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-read.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-read.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-remove.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-remove.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-write.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-write.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/base/syn-write.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/create.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/seq-test.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/filesys/seq-test.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/internal/list.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/internal/stdio.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/internal/stdlib.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/lib.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/lib.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/lib.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/main.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/main.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/make-grade">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/random.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/tests.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/Grading">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/Rubric.mlfqs">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/Rubric.priority">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-block.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-block.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-fair-2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-fair-20.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-fair.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-load-1.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-load-1.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-load-60.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-load-60.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-load-avg.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-load-avg.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-nice-10.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-nice-2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-recent-1.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs-recent-1.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/mlfqs.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-change.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-change.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-condvar.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-condvar.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-chain.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-chain.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-lower.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-lower.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-multiple.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-multiple.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-multiple2.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-multiple2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-nest.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-nest.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-one.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-one.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-sema.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-donate-sema.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-fifo.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-fifo.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-preempt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-preempt.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-sema.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/priority-sema.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/tests.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/threads/tests.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/Grading">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/Rubric.functionality">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/Rubric.robustness">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/args-dbl-space.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/args-many.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/args-multiple.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/args-none.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/args-single.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/args.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-jump.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-jump.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-jump2.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-jump2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-read.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-read.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-read2.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-read2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-write.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-write.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-write2.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/bad-write2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/boundary.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/boundary.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/child-bad.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/child-close.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/child-rox.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/child-simple.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-bad-fd.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-bad-fd.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-normal.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-normal.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-stdin.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-stdin.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-stdout.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-stdout.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-twice.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/close-twice.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-bad-ptr.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-bad-ptr.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-bound.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-bound.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-empty.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-empty.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-exists.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-exists.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-long.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-long.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-normal.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-normal.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-null.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/create-null.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-arg.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-arg.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-bad-ptr.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-bad-ptr.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-missing.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-missing.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-multiple.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-multiple.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-once.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exec-once.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exit.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/exit.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/halt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/halt.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/multi-child-fd.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/multi-child-fd.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/multi-recurse.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/multi-recurse.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/no-vm/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/no-vm/Rubric">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/no-vm/multi-oom.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/no-vm/multi-oom.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/null.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-bad-ptr.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-bad-ptr.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-boundary.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-boundary.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-empty.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-empty.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-missing.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-missing.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-normal.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-normal.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-null.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-null.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-twice.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/open-twice.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-bad-fd.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-bad-fd.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-bad-ptr.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-bad-ptr.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-boundary.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-boundary.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-normal.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-normal.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-stdout.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-stdout.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-zero.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/read-zero.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-child.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-child.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-child.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-multichild.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-multichild.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-simple.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/rox-simple.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sample.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sample.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-bad-arg.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-bad-arg.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-bad-sp.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-bad-sp.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-boundary-2.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-boundary-2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-boundary.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/sc-boundary.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-bad-pid.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-bad-pid.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-killed.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-killed.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-simple.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-simple.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-twice.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/wait-twice.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-bad-fd.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-bad-fd.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-bad-ptr.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-bad-ptr.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-boundary.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-boundary.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-normal.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-normal.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-stdin.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-stdin.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-zero.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/userprog/write-zero.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/Grading">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/Make.tests">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/Rubric.functionality">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/Rubric.robustness">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/child-inherit.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/child-linear.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/child-mm-wrt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/child-qsort-mm.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/child-qsort.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/child-sort.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-bad-fd.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-bad-fd.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-clean.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-clean.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-close.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-close.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-exit.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-exit.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-inherit.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-inherit.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-misalign.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-misalign.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-null.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-null.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-over-code.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-over-code.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-over-data.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-over-data.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-over-stk.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-over-stk.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-overlap.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-overlap.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-read.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-read.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-remove.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-remove.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-shuffle.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-shuffle.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-twice.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-twice.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-unmap.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-unmap.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-write.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-write.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-zero.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/mmap-zero.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-linear.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-linear.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-mm.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-mm.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-par.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-par.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-seq.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-seq.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-stk.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-merge-stk.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-parallel.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-parallel.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-shuffle.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/page-shuffle.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/parallel-merge.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/parallel-merge.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/process_death.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-bad-addr.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-bad-addr.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-bad-read.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-bad-read.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-big-stk-obj.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-big-stk-obj.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-bad.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-bad.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-pusha.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-pusha.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-stack.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-stack.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-stk-sc.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-grow-stk-sc.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-write-code-2.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-write-code.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-write-code.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/pt-write-code2.ck">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/qsort.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/qsort.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/sample.inc">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/tests/vm/sample.txt">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/Make.vars">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/fixed-point.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/flags.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/init.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/init.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/interrupt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/interrupt.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/intr-stubs.S">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/intr-stubs.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/io.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/kernel.lds.S">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/loader.S">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/loader.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/malloc.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/malloc.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/palloc.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/palloc.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/pte.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/start.S">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/switch.S">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/switch.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/synch.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/synch.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/thread.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/thread.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/threads/vaddr.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/Make.vars">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/exception.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/exception.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/gdt.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/gdt.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/pagedir.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/pagedir.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/process.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/process.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/syscall.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/syscall.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/tss.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/userprog/tss.h">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/Pintos.pm">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/backtrace">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/pintos">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/pintos-gdb">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/pintos-mkdisk">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/pintos-set-cmdline">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/setitimer-helper.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/squish-pty.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/utils/squish-unix.c">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/vm/Make.vars">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/src/vm/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/tests/Makefile">
+			<Option target="pintos_08"/>
+		</Unit>
+		<Unit filename="/Users/mikiivanovic/pintos_08/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
